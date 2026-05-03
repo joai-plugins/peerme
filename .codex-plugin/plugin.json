@@ -1,0 +1,38 @@
+{
+  "name": "joai-peerme",
+  "version": "0.3.0",
+  "description": "Connect PeerMe to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/peerme",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "peerme"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PeerMe by JoAi",
+    "shortDescription": "Connect PeerMe to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Decentralized governance and multi-signature wallet platform for DAOs on MultiversX. Manage organizations and execute secure transactions with advanced multisig capabilities.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/peerme",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the PeerMe tools available in this app.",
+      "Explain what setup or authentication PeerMe needs before I run an action.",
+      "Use PeerMe to help me with the task I describe next."
+    ]
+  }
+}
