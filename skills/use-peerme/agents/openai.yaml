@@ -1,0 +1,18 @@
+interface:
+  display_name: "PeerMe"
+  short_description: "Connect PeerMe to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server."
+  icon_small: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/peerme-black.svg"
+  icon_large: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/peerme-black.svg"
+  brand_color: "#4fd1c5"
+  default_prompt: "List the PeerMe tools available in this app."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-peerme"
+      description: "PeerMe MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/peerme"
